@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#feefc6" >    
+
+    <TextView
+        android:id="@+id/questionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textColor="#ffffff"
+        android:background= "@drawable/que_text_border"        
+        android:padding="12dip"
+        android:textStyle="bold"
+        android:textSize="24dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical" >
+	     <Button
+	     android:id="@+id/QueAnsBtn"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"        
+	     android:layout_centerInParent="true"
+	     android:paddingTop="24dip"
+	     android:text="View Answers"
+	     android:paddingBottom="24dip"
+	     android:textStyle="bold" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/questionDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:textColor="#000000"
+        android:padding="12dip"        
+        android:textSize="20dip"
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

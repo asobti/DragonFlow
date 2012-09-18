@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.notimplementedexception.dragonflow"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuestionsActivity"
+                    android:label="Questions"></activity>
+        <activity android:name=".QuestionActivity"
+                    android:label="Question"></activity>
+        <activity android:name=".TagsActivity"
+                    android:label="Tags"></activity>
+        <activity android:name=".TagActivity"
+                    android:label="Tag"></activity>
+        <activity android:name=".UsersActivity"
+                    android:label="Users"></activity>
+        <activity android:name=".UserActivity"
+                    android:label="User"></activity>
+         <activity android:name=".SearchActivity"
+                    android:label="Search"></activity>
+         <activity android:name=".AboutActivity"
+                    android:label="About"></activity>
+         <activity android:name=".AnswersActivity"
+                    android:label="Answers"></activity>
+         <activity android:name=".AnswerActivity"
+                    android:label="Answer"></activity>
+         <activity android:name=".SiteActivity"
+                    android:label="Sites"></activity>
+    </application>
+
+</manifest>

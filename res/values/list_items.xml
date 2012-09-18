@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_items">
+        <item>Questions</item>
+        <item>Tags</item>
+        <item>Users</item>
+        <item>Search</item>
+        <item>Change Site</item>
+        <item>About</item>        
+    </string-array>
+</resources>

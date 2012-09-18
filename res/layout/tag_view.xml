@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#feefc6" >
+
+    <TextView
+        android:id="@+id/tagTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textColor="#ffffff"
+        android:background= "@drawable/que_text_border"        
+        android:padding="12dip"
+        android:textStyle="bold"
+        android:textSize="24dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="12dip">
+        
+        <Button
+        android:id="@+id/tagBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_centerInParent="true"
+        android:paddingTop="24dip"
+        android:paddingBottom="24dip"
+        android:textStyle="bold" />
+        
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dip" >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+		    
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:paddingBottom="24dip" >
+		    	
+                <TextView
+		            android:id="@+id/tagCountTitle"
+		            android:layout_width="150dip"
+		            android:layout_height="wrap_content"
+		            android:text="Questions :"
+		            android:textStyle="bold"
+		            android:textSize="24dip"		            
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+        		<TextView
+		            android:id="@+id/tagCount"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:text="..."            
+		            android:textSize="20dip"            
+		            android:textAppearance="?android:attr/textAppearanceMedium" />        	
+		    </LinearLayout>
+		    
+            <TextView
+		            android:id="@+id/tagWikiTitle"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Summary :"
+		            android:textStyle="bold"
+		            android:textSize="24dip"
+		            android:paddingBottom="18dip"		            
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+		            android:id="@+id/tagWiki"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"		            
+		            android:textSize="20dip"
+		            android:text="Fetching..."
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>       
+    </ScrollView>
+
+</LinearLayout>
