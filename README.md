@@ -3,7 +3,7 @@ DragonFlow
 
 An Android app to browse StackOverflow and other Stack Exchange websites.
 
-This application was created as a school assignment over a period of two weeks. As a result, this application is far from complete and not entirely ready to be packaged and published.
+This application was created as a school assignment over a period of two weeks. As a result, even though this application is fully functional, it is far from complete and not entirely ready to be packaged and published.
 
 To-do
 ------
